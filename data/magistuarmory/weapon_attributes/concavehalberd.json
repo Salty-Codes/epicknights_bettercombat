@@ -1,0 +1,34 @@
+{
+  "attributes": {
+    "attack_range": 3.5,
+    "two_handed": true,
+    "pose": "bettercombat:pose_two_handed_polearm",
+    "category": "halberd",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "upswing": 0.45,
+        "angle": 120,
+        "damage_multiplier": 1.0,
+        "swing_sound": { "id": "bettercombat:glaive_slash_quick" }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "animation": "bettercombat:two_handed_slash_vertical_left",
+        "upswing": 0.38,
+        "angle": 90,
+        "damage_multiplier": 1.05,
+        "swing_sound": { "id": "bettercombat:glaive_slash_slow" }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "animation": "bettercombat:two_handed_stab_right",
+        "upswing": 0.30,
+        "angle": 20,
+        "damage_multiplier": 1.2,
+        "swing_sound": { "id": "bettercombat:spear_stab" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "attack_range": 2.5,
+    "two_handed": true,
+    "pose": "bettercombat:pose_two_handed_heavy",
+    "category": "mace",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "animation": "bettercombat:two_handed_slash_horizontal_right",
+        "upswing": 0.42,
+        "angle": 160,
+        "damage_multiplier": 0.9,
+        "swing_sound": { "id": "bettercombat:mace_slash" }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "animation": "bettercombat:two_handed_slash_horizontal_left",
+        "upswing": 0.45,
+        "angle": 160,
+        "damage_multiplier": 0.9,
+        "swing_sound": { "id": "bettercombat:mace_slash" }
+      }
+    ]
+  }
+}
