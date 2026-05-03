@@ -8,18 +8,22 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:two_handed_slash_horizontal_right",
-        "upswing": 0.42,
+        "upswing": 0.36,
         "angle": 160,
         "damage_multiplier": 0.9,
-        "swing_sound": { "id": "bettercombat:mace_slash" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:two_handed_slash_horizontal_left",
-        "upswing": 0.45,
+        "upswing": 0.37,
         "angle": 160,
         "damage_multiplier": 0.9,
-        "swing_sound": { "id": "bettercombat:mace_slash" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
       }
     ]
   }

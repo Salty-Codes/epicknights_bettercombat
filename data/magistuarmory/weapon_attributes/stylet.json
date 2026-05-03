@@ -7,26 +7,32 @@
       {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab",
-        "upswing": 0.72,
+        "upswing": 0.44,
         "angle": 20,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:rapier_stab" }
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
       },
       {
         "hitbox": "VERTICAL_PLANE",
         "animation": "bettercombat:one_handed_uppercut_right",
-        "upswing": 0.78,
+        "upswing": 0.5,
         "angle": 60,
         "damage_multiplier": 0.7,
-        "swing_sound": { "id": "bettercombat:rapier_slash" }
+        "swing_sound": {
+          "id": "bettercombat:rapier_slash"
+        }
       },
       {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab",
-        "upswing": 0.58,
+        "upswing": 0.35,
         "angle": 20,
         "damage_multiplier": 1.3,
-        "swing_sound": { "id": "bettercombat:rapier_stab" }
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
       }
     ]
   }

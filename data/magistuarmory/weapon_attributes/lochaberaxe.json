@@ -8,26 +8,32 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:two_handed_slash_horizontal_right",
-        "upswing": 0.42,
+        "upswing": 0.36,
         "angle": 120,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:glaive_slash_quick" }
+        "swing_sound": {
+          "id": "bettercombat:glaive_slash_quick"
+        }
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:two_handed_slash_horizontal_left",
-        "upswing": 0.48,
+        "upswing": 0.4,
         "angle": 120,
         "damage_multiplier": 0.95,
-        "swing_sound": { "id": "bettercombat:glaive_slash_quick" }
+        "swing_sound": {
+          "id": "bettercombat:glaive_slash_quick"
+        }
       },
       {
         "hitbox": "VERTICAL_PLANE",
         "animation": "bettercombat:two_handed_slash_vertical_right",
-        "upswing": 0.30,
+        "upswing": 0.26,
         "angle": 80,
         "damage_multiplier": 1.2,
-        "swing_sound": { "id": "bettercombat:glaive_slash_slow" }
+        "swing_sound": {
+          "id": "bettercombat:glaive_slash_slow"
+        }
       }
     ]
   }

@@ -7,34 +7,42 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:one_handed_slash_horizontal_right",
-        "upswing": 0.55,
+        "upswing": 0.47,
         "angle": 120,
         "damage_multiplier": 0.9,
-        "swing_sound": { "id": "bettercombat:sword_slash" }
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
       },
       {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab",
-        "upswing": 0.58,
+        "upswing": 0.5,
         "angle": 25,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:sword_slash" }
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
       },
       {
         "hitbox": "VERTICAL_PLANE",
         "animation": "bettercombat:one_handed_uppercut_right",
-        "upswing": 0.52,
+        "upswing": 0.44,
         "angle": 75,
         "damage_multiplier": 0.95,
-        "swing_sound": { "id": "bettercombat:sword_slash" }
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:one_handed_slash_horizontal_left",
-        "upswing": 0.48,
+        "upswing": 0.4,
         "angle": 120,
         "damage_multiplier": 1.05,
-        "swing_sound": { "id": "bettercombat:sword_slash" }
+        "swing_sound": {
+          "id": "bettercombat:sword_slash"
+        }
       }
     ]
   }

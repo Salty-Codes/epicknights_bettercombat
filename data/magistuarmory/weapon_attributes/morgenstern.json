@@ -7,34 +7,42 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:one_handed_slash_horizontal_right",
-        "upswing": 0.48,
+        "upswing": 0.33,
         "angle": 150,
         "damage_multiplier": 0.85,
-        "swing_sound": { "id": "bettercombat:mace_slash" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
       },
       {
         "hitbox": "HORIZONTAL_PLANE",
         "animation": "bettercombat:one_handed_slash_horizontal_left",
-        "upswing": 0.52,
+        "upswing": 0.37,
         "angle": 150,
         "damage_multiplier": 0.85,
-        "swing_sound": { "id": "bettercombat:mace_slash" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
       },
       {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab",
-        "upswing": 0.58,
+        "upswing": 0.43,
         "angle": 30,
         "damage_multiplier": 0.9,
-        "swing_sound": { "id": "bettercombat:mace_slash" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
       },
       {
         "hitbox": "VERTICAL_PLANE",
         "animation": "bettercombat:one_handed_slam",
-        "upswing": 0.28,
+        "upswing": 0.24,
         "angle": 80,
         "damage_multiplier": 1.5,
-        "swing_sound": { "id": "bettercombat:mace_slam" }
+        "swing_sound": {
+          "id": "bettercombat:mace_slam"
+        }
       }
     ]
   }

@@ -6,22 +6,30 @@
     "category": "lance",
     "attacks": [
       {
-        "conditions": ["NOT_MOUNTED"],
+        "conditions": [
+          "NOT_MOUNTED"
+        ],
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab",
-        "upswing": 0.45,
+        "upswing": 0.37,
         "angle": 20,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:spear_stab" }
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
       },
       {
-        "conditions": ["MOUNTED"],
+        "conditions": [
+          "MOUNTED"
+        ],
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:one_handed_stab_mounted",
-        "upswing": 0.5,
+        "upswing": 0.42,
         "angle": 15,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:spear_stab" }
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
       }
     ]
   }

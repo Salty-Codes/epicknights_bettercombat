@@ -8,18 +8,22 @@
       {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:two_handed_stab_right",
-        "upswing": 0.45,
+        "upswing": 0.37,
         "angle": 20,
         "damage_multiplier": 1.0,
-        "swing_sound": { "id": "bettercombat:spear_stab" }
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
       },
-{
+      {
         "hitbox": "FORWARD_BOX",
         "animation": "bettercombat:two_handed_stab_right",
-        "upswing": 0.3,
+        "upswing": 0.26,
         "angle": 20,
         "damage_multiplier": 1.2,
-        "swing_sound": { "id": "bettercombat:spear_stab" }
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
       }
     ]
   }
